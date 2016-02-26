@@ -1,0 +1,47 @@
+<!doctype html>
+<html ng-app="needieHave">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>NeedieHave</title>
+
+    <!--Load Twitter Bootstrap from CDN -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!--Load ont-awesome.min.css for icons-->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!--Load Style.css-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body ng-controller="navController">
+    <div class="wrapper">
+        <header class="box site-header">
+            <div class="container">
+                <div ng-include src="navTemplate.url"></div>
+            </div>
+        </header>
+        <aside>
+            
+        </aside>
+        <div ui-view class="view1"></div>
+        <footer></footer>
+    </div>
+
+    <!--Load jquery from CDN -->
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!--Load Twitter Bootstrap script from CDN -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!--Load Angularjs from CDN -->
+    <script src="https://code.angularjs.org/1.4.0-rc.2/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/routes.js"></script>
+    <script src="scripts/controller.js"></script>
+    <script src="scripts/directives.js"></script>
+
+</body>
+
+</html>

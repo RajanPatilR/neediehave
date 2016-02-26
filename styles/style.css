@@ -1,0 +1,124 @@
+/*Header*/
+
+header {
+    margin: 0px;
+    background-color: #333;
+}
+.icon-bar {
+    color: rebeccapurple;
+}
+#mainNavbar ul {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+#mainNavbar ul ul {
+    margin-top: -10px;
+}
+#mainNavbar ul li {
+    margin-right: 10px;
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+#mainNavbar ul li a {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#mainNavbar ul li a:hover {
+    color: lightskyblue;
+    background-color: transparent;
+}
+#mainNavbar ul ul li a {
+    color: lightskyblue;
+    background-color: rebeccapurple;
+}
+#mainNavbar ul ul li a:hover {
+    color: rebeccapurple;
+    background-color: lightskyblue;
+}
+#mainNavbar ul ul li .login-menu {
+    width: 350px;
+    margin-top: 22px;
+    padding: 15px 15px;
+}
+.form-group input {
+    color: black;
+    font-weight: 400;
+}
+.login-checkbox {
+    display: inline;
+    color: navy;
+}
+.form-btn {
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.login-btn {
+    color: lightskyblue;
+    background-color: rebeccapurple;
+}
+.login-btn:hover {
+    color: rebeccapurple;
+    background-color: lightskyblue;
+}
+.signup-btn {
+    color: lightgreen;
+    background-color: green;
+}
+.signup-btn:hover {
+    color: green;
+    background-color: lightgreen;
+}
+.error-msg {
+    color: red;
+    font-weight: 400;
+    text-align: justify;
+    padding-top: 5px;
+}
+.modal-body label {
+    color: black;
+}
+.modal-footer {
+    margin-top: 40px;
+}
+.modal-footer p>a {
+    color: blue;
+    font-weight: 400;
+}
+.registration-btn {
+    width: 48%;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.register-btn {
+    color: lightgreen;
+    background-color: green;
+}
+.register-btn:hover {
+    color: green;
+    background-color: lightgreen;
+}
+.cancle-btn {
+    color: darkorange;
+    background-color: orangered;
+}
+.cancle-btn:hover {
+    color: orangered;
+    background-color: darkorange;
+}
+
+/*----------------------------------------------------------------*/
+
+
+/*View 1*/
+
+.view1 {
+    border: 2px solid black;
+}
+.view1 h1 {
+    color: black;
+}
